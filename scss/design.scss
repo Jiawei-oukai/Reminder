@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 128px minmax(0, 1fr); // divide to 2 columns, left 200px, right 1fr
+    height: 100vh; 
+    
+    > .toolbar{
+        //grid-column: 1; /* occupies the column position 1fr */
+        background-color: #e2f2da;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+
+    }
+    > .grid-reminders{
+        //grid-column: 2; /* occupies the column position 10fr */
+        background-color: white ;
+        font-family: 'Patrick Hand', cursive;
+
+
+        display: grid;
+        grid-template-rows: 110px minmax(0, 1fr); // divide to 2 rows, top 100px, bottom 1fr
+        padding:10px 50px;
+
+        h1 {
+            margin: 0px;
+            padding: 10px 40px;
+            font-size: 56px;
+            font-weight: lighter;
+        }
+
+        .reminder-container {
+            display: flex;
+            flex-wrap: wrap;
+            align-content: flex-start;
+
+        }
+    }
+}
+.button {
+    color: black;
+    text-decoration: none;
+    font-size: 100px;
+    font-weight: bolder;
+    height: 100px;
+}

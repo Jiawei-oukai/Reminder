@@ -1,0 +1,19 @@
+{
+  "name": "assignment-6-jiawei-oukai",
+  "version": "1.0.0",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/welJc0KW)",
+  "main": "index.js",
+  "scripts": {
+    "sass": "npx sass scss/main.scss dist/main.css"
+  },
+  "bugs": {
+    "url": "https://github.com/neu-mis-info-6150-summer-2023/assignment-6-Jiawei-oukai/issues"
+  },
+  "homepage": "https://github.com/neu-mis-info-6150-summer-2023/assignment-6-Jiawei-oukai#readme",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dec": "^0.0.1",
+    "sass": "^1.63.4"
+  }
+}
